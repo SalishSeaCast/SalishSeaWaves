@@ -1,0 +1,19 @@
+$-------------------------------------------------------------------- $
+$ WAVEWATCH III NETCDF Field preprocessor input ww3_prnc_wind.inp
+$
+$ -------------------------------------------------------------------- $
+   'WND' 'LL' T T
+$ Name of dimensions
+  longitude latitude  
+$  latitude longitude   
+$ Variables to use
+  u_wind v_wind 
+$ Additional time input ---------------------------------------------- $
+$ If time flag is .FALSE., give time of field in yyyymmdd hhmmss format.
+$  20160209 030000
+$ Define data files
+  '../input/SoG_wind_20170101.nc'
+$ -------------------------------------------------------------------- $
+$ End of input file
+$
+$ -------------------------------------------------------------------- $
