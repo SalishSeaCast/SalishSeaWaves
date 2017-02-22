@@ -2,7 +2,7 @@
 Meanings of Switches
 ********************
 
-These are the meanings of the switches in the ```switch`` file,
+These are the meanings of the switches in the ``switch`` file,
 as given in the `ww3-v5.16 manual`_
 
 .. _ww3-v5.16 manual: http://polar.ncep.noaa.gov/waves/wavewatch/manual.v5.16.pdf
