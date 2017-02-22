@@ -4,10 +4,10 @@ $
 $ -------------------------------------------------------------------- $
    'WND' 'LL' T T
 $ Name of dimensions
-  longitude latitude  
-$  latitude longitude   
+  longitude latitude
+$  latitude longitude
 $ Variables to use
-  u_wind v_wind 
+  u_wind v_wind
 $ Additional time input ---------------------------------------------- $
 $ If time flag is .FALSE., give time of field in yyyymmdd hhmmss format.
 $  20160209 030000
