@@ -1,0 +1,17 @@
+$-------------------------------------------------------------------- $
+$ WAVEWATCH III NETCDF Field preprocessor input ww3_prnc_current.inp
+$
+$ -------------------------------------------------------------------- $
+  'CUR' 'LL' T T
+$ Name of dimensions
+  longitude latitude
+$  latitude longitude
+$ Variables to use
+  UCUR VCUR
+$ Define data files
+  '../input/SoG_current_20170101.nc'
+$  './reg_test/ww3_SoG/input/CFS_2013_cur.nc'
+$ -------------------------------------------------------------------- $
+$ End of input file
+$
+$ -------------------------------------------------------------------- $
