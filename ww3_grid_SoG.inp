@@ -1,20 +1,20 @@
 $ WAVEWATCH III Grid preprocessor input file
 $ ------------------------------------------
 $  Grid name (C*30, in quotes)
-  'SoG_BCgrid_00500m             '      
+  'SoG_BCgrid_00500m             '
 $
 $         '
-$ Frequency increment factor and first frequency (Hz) number of frequencies (wavenumbers) and directions, 
+$ Frequency increment factor and first frequency (Hz) number of frequencies (wavenumbers) and directions,
 $ relative offset of first direction in terms of the directional increment [-0.5,0.5].
 $ In versions 1.18 and 2.22 of the model this value was by definiton 0,
-$ it is added to mitigate the GSE for a first order scheme. 
+$ it is added to mitigate the GSE for a first order scheme.
 $ Note that this factor is IGNORED in the print plots in ww3_outp.
 $   1.1  0.04  25  24  0.
    1.1  0.06665  25  24  0.
 $  1.1  0.04665  15  24  0.
 $  1.1  0.04665  15  24  0.5
 $
-$ Set model flags 
+$ Set model flags
 $ - FLDRY:  Dry run (input/output only, no calculation).
 $ - FLCX, FLCY: Activate X and Y component of propagation.
 $ - FLCTH, FLCK: Activate direction and wavenumber shifts.
@@ -55,7 +55,7 @@ $ &PRO3 WDTHTH=2.00, WDTHCG=0.00 /
 $
 $
 $ Mandatory string to identify end of namelist input section.
-$ 
+$
 END OF NAMELISTS
 $
 $ Define grid -------------------------------------------------------- $
@@ -95,10 +95,10 @@ $ If CSTRG=’SMPL’, then SX is set to 360/NX.
 $
 $ 4 Coordinates of (1,1) (degr.) and scaling (division) factor.
 $
-$ ELSE IF ( CURVILINEAR GRID ) THEN  
+$ ELSE IF ( CURVILINEAR GRID ) THEN
 $  (see manual for settings for non-rctiliniar grids)
 $  (here we assume a rectiliniar grid)
-$ 
+$
 $ END IF ( GRID TYPE )
 $
 $ 5 Limiting bottom depth (m) to discriminate between land and sea
@@ -121,9 +121,9 @@ $
   234.0000          48.0000         1.00
   -0.10   2.50  20  0.001000  1  1 '(....)'  NAME  '../input/SoG_BCgrid_00500m.bot'
 $
-$ Sub-grid information 
-$$   30  0.010000  1  1  '(....)'  NAME  '../input/SoG_BCgrid_00500m.obs'  
-   40  1  1  '(....)'  NAME  '../input/SoG_BCgrid_00500m.msk'  
+$ Sub-grid information
+$$   30  0.010000  1  1  '(....)'  NAME  '../input/SoG_BCgrid_00500m.obs'
+   40  1  1  '(....)'  NAME  '../input/SoG_BCgrid_00500m.msk'
 $
 $
 $
@@ -137,5 +137,3 @@ $ -------------------------------------------------------------------- $
 $ End of input file
 $
 $ -------------------------------------------------------------------- $
-
-

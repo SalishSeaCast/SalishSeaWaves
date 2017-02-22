@@ -9,10 +9,10 @@ $ 4 Limiting bottom depth (m) to discriminate between land and sea
 $   points, minimum water depth (m) as allowed in model, unit number
 $   of file with bottom depths, scale factor for bottom depths (mult.),
 $   IDLA, IDFM, format for formatted read, FROM and filename.
-572 	 661 
- 0.42 	  0.27 	 60.00 
+572 	 661
+ 0.42 	  0.27 	 60.00
 234.0000 	  48.0000 	  1.00
--0.10   2.50  20  0.001000  1  1 '(....)'  NAME  '../../media/WW3_share/v4.18/regtests/ww3_BC/WW3_Matlab_out/SoG_BCgrid_00500m.meta.depth_ascii' 
-$ Sub-grid information 
-30  0.010000  1  1  '(....)'  NAME  '../../media/WW3_share/v4.18/regtests/ww3_BC/WW3_Matlab_out/SoG_BCgrid_00500m.meta.obstr_lev1'  
-40  1  1  '(....)'  NAME  '../../media/WW3_share/v4.18/regtests/ww3_BC/WW3_Matlab_out/SoG_BCgrid_00500m.meta.mask'  
+-0.10   2.50  20  0.001000  1  1 '(....)'  NAME  '../../media/WW3_share/v4.18/regtests/ww3_BC/WW3_Matlab_out/SoG_BCgrid_00500m.meta.depth_ascii'
+$ Sub-grid information
+30  0.010000  1  1  '(....)'  NAME  '../../media/WW3_share/v4.18/regtests/ww3_BC/WW3_Matlab_out/SoG_BCgrid_00500m.meta.obstr_lev1'
+40  1  1  '(....)'  NAME  '../../media/WW3_share/v4.18/regtests/ww3_BC/WW3_Matlab_out/SoG_BCgrid_00500m.meta.mask'
