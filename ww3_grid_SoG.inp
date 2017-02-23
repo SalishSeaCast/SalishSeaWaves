@@ -119,11 +119,11 @@ $
   572      661
   0.42     0.27   60.00
   234.0000          48.0000         1.00
-  -0.10   2.50  20  0.001000  1  1 '(....)'  NAME  'input/SoG_BCgrid_00500m.bot'
+  -0.10   2.50  20  0.001000  1  1 '(....)'  NAME  'grid/SoG_BCgrid_00500m.bot'
 $
 $ Sub-grid information
-$$   30  0.010000  1  1  '(....)'  NAME  'input/SoG_BCgrid_00500m.obs'
-   40  1  1  '(....)'  NAME  'input/SoG_BCgrid_00500m.msk'
+$$   30  0.010000  1  1  '(....)'  NAME  'grid/SoG_BCgrid_00500m.obs'
+   40  1  1  '(....)'  NAME  'grid/SoG_BCgrid_00500m.msk'
 $
 $
 $
