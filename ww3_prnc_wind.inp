@@ -12,7 +12,7 @@ $ Additional time input ---------------------------------------------- $
 $ If time flag is .FALSE., give time of field in yyyymmdd hhmmss format.
 $  20160209 030000
 $ Define data files
-  '../input/SoG_wind_20170101.nc'
+  'wind/SoG_wind_20170101.nc'
 $ -------------------------------------------------------------------- $
 $ End of input file
 $
